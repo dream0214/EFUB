@@ -13,5 +13,8 @@ for (let key in order){
 
 //실습 2 배열 내장 함수
 const onetofive=[1,2,3,4,5];
-
 const triple=onetofive.map(num=>3*num);
+const even=triple.filter(num=>num%2===0);
+for (let value of even){
+    console.log(value);
+}
